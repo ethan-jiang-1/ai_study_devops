@@ -120,3 +120,6 @@ TDD的实践过程会不自觉地引导开发者向SOLID原则靠拢：
     *   **构造函数注入 (Constructor Injection):** 依赖通过类的构造函数传入。这是最推荐的方式，因为它确保了对象在创建时就处于有效状态。
     *   **Setter方法注入 (Setter Injection):** 依赖通过公开的setter方法传入。
     *   **接口注入 (Interface Injection):** 类实现一个特定接口，该接口定义了注入依赖的方法。 
+
+
+---

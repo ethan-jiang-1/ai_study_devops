@@ -102,3 +102,5 @@ TDD的"测试先行"模式与传统的"先编码后测试"（Test-After）模式
     ![](https://metaso-static.oss-cn-beijing.aliyuncs.com/metaso/pdf2texts_reading_mode/figures/0e758d76-5cec-4287-a2b0-4f0f587446a4/407_0.jpg)
 
 5.  **从"一次性完成大模块"到"小步迭代，持续集成"**：TDD强制以非常小的增量进行开发，每个小增量都经过测试验证，这与敏捷开发的持续集成思想高度契合。 
+
+---
