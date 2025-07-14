@@ -62,12 +62,12 @@
     ```mermaid
     graph TD
         subgraph Observability 3.0
-            A[OpenTelemetry Collector] -->|eBPF增强| B[统一遥测数据(Metrics/Trace/Log)]
+            A[OpenTelemetry Collector] -->|eBPF增强| B["统一遥测数据(Metrics/Trace/Log)"]
             B --> C[向量数据库]
         end
         subgraph AI Engine
-            C --> D[因果AI/LLM Planner]
-            D -->|生成修复剧本| E[Argo CD / GitOps]
+            C --> D["因果AI/LLM Planner"]
+            D -->|生成修复剧本| E["Argo CD / GitOps"]
             D -->|生成混沌策略| F[ChaosMesh]
         end
         subgraph Runtime
