@@ -106,16 +106,9 @@ graph LR
     这个知识图谱成为了人与AI、人与人之间协同的**核心媒介**，使得跨领域的影响性分析和根本原因追溯成为可能。
     -   **技术栈示例**：通过`Neo4j`（图存储）+ `Milvus`（向量存储）+ `LangGraph`（智能体编排）+ `OpenTelemetry`（数据采集）来构建这一中枢。
 
-*   **关键机制：Prompt指纹**
-    为了确保每一次人机交互都可追溯，可以引入Prompt指纹机制，将每一次的Prompt及其上下文哈希化，作为一个可追溯的图谱节点。
-    ```python
-    import hashlib
-    import json
-
-    def prompt_fingerprint(prompt: str, context: dict) -> str:
-      """为每一次人机交互生成一个唯一的、可追溯的指纹"""
-      payload = json.dumps({"prompt": prompt, "context": context}, sort_keys=True)
-      return f"prompt_{hashlib.sha256(payload.encode()).hexdigest()[:16]}"
-    ```
+*   **关键机制：Prompt-as-Code 与 DevOps 原生可追溯性**
+    为了确保每一次人机交互都可审计和追溯，最佳实践是将指令（Prompt）本身也视为代码（**Prompt-as-Code**），并利用成熟的DevOps工具链实现其生命周期管理。
+    -   **Git作为单一事实来源**：所有结构化的Prompt都应存储在Git仓库中。每一次修改都通过一次Commit来完成，**Git的Commit Hash本身就构成了最可靠、最自然的"指纹"**，天然地将Prompt与作者、时间戳和变更意图绑定。
+    -   **CI/CD流水线集成**：当一个Prompt被合并或执行时，CI/CD流水线会自动触发，将该Prompt（及其Commit Hash）与它所生成的所有下游产物（代码、测试、部署ID）在知识图谱中建立关联。这构成了端到端的、不可篡改的追溯链。
 
 ---
