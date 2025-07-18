@@ -10,17 +10,17 @@
 
 ## 📚 示例目录
 
-### 🔗 API测试示例 → [api_example/](./api_example/)
+### 🔗 API测试示例 → [api_full_conversation.md](./api_full_conversation.md)
 - **完整对话**：从提示词到测试方案的完整过程
 - **真实场景**：电商平台用户管理API测试
 - **学习重点**：如何描述API业务规则和技术要求
 
-### 🎨 界面测试示例 → [ui_example/](./ui_example/)
+### 🎨 界面测试示例 → [ui_full_conversation.md](./ui_full_conversation.md)
 - **完整对话**：Web页面测试的完整生成过程  
 - **真实场景**：电商网站登录页面测试
 - **学习重点**：如何描述界面功能和用户体验要求
 
-### 💾 数据库测试示例 → [database_example/](./database_example/)
+### 💾 数据库测试示例 → [database_full_conversation.md](./database_full_conversation.md)
 - **完整对话**：数据库测试的完整生成过程
 - **真实场景**：电商订单数据库测试
 - **学习重点**：如何描述数据结构和业务规则
@@ -68,9 +68,9 @@
 ## 🚀 下一步
 
 1. **查看示例** → 选择相关示例详细学习
-2. **模仿练习** → 使用 [start_here](../start_here/) 模板练习
-3. **质量检查** → 用 [checklists](../checklists/) 验证质量
-4. **高级定制** → 用 [templates](../templates/) 处理复杂场景
+2. **模仿练习** → 使用 [quick_start](../quick_start/) 模板练习
+3. **质量检查** → 用 [quality_checklists](../quality_checklists/) 验证质量
+4. **高级定制** → 用 [advanced_templates](../advanced_templates/) 处理复杂场景
 
 ---
 
