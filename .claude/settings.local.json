@@ -10,7 +10,8 @@
       "Bash(mv:*)",
       "Bash(for:*)",
       "Bash(do mkdir:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(rg:*)"
     ],
     "deny": []
   }

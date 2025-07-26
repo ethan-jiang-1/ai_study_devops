@@ -5,7 +5,7 @@
 > 
 > **核心转变**：知道怎么做 → 理解为什么这样做 → 能灵活调整应用
 > 
-> **行动**：选择[深度思考模板](./requirements_thinking.md) → 配合[AI协作](./ai_deep_research.md) → 完成[适应性调整](./requirements_adaptation.md)
+> **行动**：选择[深度思考模板](./requirements_thinking.md) → 配合[AI协作应用](./requirements_application.md) → 完成适应性调整
 
 ---
 

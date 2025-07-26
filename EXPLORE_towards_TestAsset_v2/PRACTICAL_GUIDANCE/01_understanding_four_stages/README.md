@@ -113,12 +113,12 @@
 **⏰ 用时**：15-20分钟  
 **💪 特色**：用问题引导思考，而非直接给答案  
 
-### 🔍 [ai_deep_research.md](./requirements_clarification/ai_deep_research.md) - AI深度研究协作
+### 🔍 [requirements_application.md](./requirements_clarification/requirements_application.md) - AI深度研究协作
 **🎯 适用**：需要深入研究技术方案时  
 **⏰ 用时**：10-15分钟  
 **💪 特色**：3-5轮AI协作对话，深度挖掘解决方案  
 
-### 🔄 [requirements_adaptation.md](./requirements_clarification/requirements_adaptation.md) - 适应性调整
+### 🔄 已包含在 [requirements_application.md](./requirements_clarification/requirements_application.md) - 适应性调整
 **🎯 适用**：根据项目特点调整需求分析方法  
 **⏰ 用时**：8-10分钟  
 **💪 特色**：教会如何根据不同项目调整方法  
@@ -240,7 +240,7 @@ AI协作：协助分析问题原因和改进方案
 **解决策略**：
 1. 找出核心差异点，思考本质需求是什么
 2. 用AI协助分析：这种类型项目的特殊考虑是什么？
-3. 参考[适应性调整模板](./requirements_clarification/requirements_adaptation.md)
+3. 参考[适应性调整方法](./requirements_clarification/requirements_application.md)
 
 #### "质量好坏我还是判断不出来"
 **解决策略**：
