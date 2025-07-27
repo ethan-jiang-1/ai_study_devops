@@ -155,4 +155,4 @@
 
 ---
 
-*基于设计原则：[PRACTICAL_GUIDANCE_DESIGN_PRINCIPLES.md](../PRACTICAL_GUIDANCE_DESIGN_PRINCIPLES.md)*
+*基于设计原则：[设计原则文档总览](./_design_principles/)*

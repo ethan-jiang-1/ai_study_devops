@@ -11,7 +11,8 @@
       "Bash(for:*)",
       "Bash(do mkdir:*)",
       "Bash(done)",
-      "Bash(rg:*)"
+      "Bash(rg:*)",
+      "Bash(echo:*)"
     ],
     "deny": []
   }
